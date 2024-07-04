@@ -49,12 +49,17 @@
     "!*/__tests__"
   ],
   "dependencies": {
+    "@loopback/authentication": "^11.0.3",
+    "@loopback/authentication-jwt": "^0.15.3",
     "@loopback/boot": "^7.0.3",
     "@loopback/core": "^6.1.0",
     "@loopback/repository": "^7.0.3",
     "@loopback/rest": "^14.0.3",
     "@loopback/rest-explorer": "^7.0.3",
     "@loopback/service-proxy": "^7.0.3",
+    "@types/jsonwebtoken": "^9.0.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
     "loopback-connector-mongodb": "^6.2.0",
     "tslib": "^2.0.0"
   },

@@ -49,12 +49,14 @@
     "!*/__tests__"
   ],
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
     "@loopback/boot": "^7.0.3",
     "@loopback/core": "^6.1.0",
     "@loopback/repository": "^7.0.3",
     "@loopback/rest": "^14.0.3",
     "@loopback/rest-explorer": "^7.0.3",
     "@loopback/service-proxy": "^7.0.3",
+    "googleapis": "^105.0.0",
     "loopback-connector-mongodb": "^6.2.0",
     "tslib": "^2.0.0"
   },
