@@ -10,6 +10,12 @@ export class Order extends Entity {
   id?: string;
 
   @property({
+    type: 'date',
+    default: () => new Date(),
+  })
+  orderDate?: string;
+
+  @property({
     type: 'string',
     required: true,
   })
@@ -20,18 +26,6 @@ export class Order extends Entity {
     required: true,
   })
   quantity: number;
-
-  @property({
-    type: 'number',
-    required: true,
-  })
-  totalPrice: number;
-
-  @property({
-    type: 'date',
-    default: () => new Date(),
-  })
-  orderDate?: string;
 
   constructor(data?: Partial<Order>) {
     super(data);
