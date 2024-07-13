@@ -49,8 +49,6 @@
     "!*/__tests__"
   ],
   "dependencies": {
-    "@grpc/grpc-js": "^1.10.11",
-    "@grpc/proto-loader": "^0.7.13",
     "@loopback/boot": "^7.0.3",
     "@loopback/core": "^6.1.0",
     "@loopback/repository": "^7.0.3",
